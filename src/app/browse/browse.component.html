@@ -1,16 +1,8 @@
-
-<div class="panel-container">
-
-            <div class="panel-left">
-                left panel
-            </div>
-
-            <div class="splitter">
-            </div>
-
-            <div class="panel-right">
-                right panel
-            </div>
-        </div>
-
-
+<split direction="vertical">
+    <split-area [size]="25">
+        <p>Lorem ipsum dolor sit amet...</p>
+    </split-area>
+    <split-area [size]="75">
+        <p>Sed ut perspiciatis unde omnis iste natus erro...</p>
+    </split-area>
+</split>

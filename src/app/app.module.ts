@@ -4,16 +4,21 @@ import {routes} from './app.router';
 import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
 import { BrowseComponent } from './browse/browse.component';
+import { AngularSplitModule } from 'angular-split';
+
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     TestComponent,
-    BrowseComponent
+    BrowseComponent,
+    AngularSplitModule
   ],
   imports: [
     BrowserModule,
-    routes
+    routes,
   ],
   providers: [],
   bootstrap: [AppComponent]
